@@ -2,10 +2,15 @@ package socks.shop.coursework3.controllers;
 
 import io.swagger.v3.oas.annotations.Operation;
 import jdk.jshell.Snippet;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import socks.shop.coursework3.models.Socks;
 import socks.shop.coursework3.services.SocksService;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 @RestController
 @RequestMapping("/api/socks")
@@ -37,7 +42,7 @@ public class SocksController {
             if (socks != null ) {
                 return ResponseEntity.ok(socks);
             } else {
-                return ResponseEntity.badRequest().build();
+                return ResponseEntity.noContent().build();
             }
         } else {
             return ResponseEntity.badRequest().build();
@@ -65,7 +70,7 @@ public class SocksController {
             if (socks != null ) {
                 return ResponseEntity.ok(socks);
             } else {
-                return ResponseEntity.badRequest().build();
+                return ResponseEntity.noContent().build();
             }
         } else {
             return ResponseEntity.badRequest().build();

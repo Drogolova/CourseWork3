@@ -1,0 +1,50 @@
+[
+  {
+    "type": "ACCEPTANCE",
+    "dateTime": [
+      2023,
+      4,
+      4,
+      22,
+      41,
+      6,
+      837294900
+    ],
+    "quantity": 20,
+    "size": "SIZE_36",
+    "cottonPart": 10,
+    "color": "RED"
+  },
+  {
+    "type": "ACCEPTANCE",
+    "dateTime": [
+      2023,
+      4,
+      4,
+      22,
+      41,
+      38,
+      816899000
+    ],
+    "quantity": 20,
+    "size": "SIZE_36",
+    "cottonPart": 10,
+    "color": "RED"
+  },
+  {
+    "type": "ACCEPTANCE",
+    "dateTime": [
+      2023,
+      4,
+      4,
+      22,
+      42,
+      2,
+      259202200
+    ],
+    "quantity": 20,
+    "size": "SIZE_36",
+    "cottonPart": 10,
+    "color": "RED"
+  }
+]
